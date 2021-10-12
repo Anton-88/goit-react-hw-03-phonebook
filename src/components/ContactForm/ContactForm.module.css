@@ -1,0 +1,23 @@
+.contact_form_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid green;
+  padding: 0 100px 50px;
+}
+
+.contact_form_item {
+  display: grid;
+  grid-template-columns: 200px 200px;
+  margin: 15px 0;
+}
+
+.contact_form_label {
+  margin-right: 20px;
+}
+
+.contact_add_btn {
+  margin-top: 30px;
+  cursor: pointer;
+}

@@ -1,0 +1,17 @@
+.contact_list {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact_list_item {
+  display: flex;
+  font-display: row;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid blue;
+}
+
+.contact_list_button {
+  height: 20px;
+  margin-left: 20px;
+}
